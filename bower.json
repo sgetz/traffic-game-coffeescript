@@ -1,0 +1,20 @@
+{
+  "name": "traffic-game-coffeescript",
+  "version": "0.0.0",
+  "homepage": "https://github.com/sgetz/traffic-game-coffeescript",
+  "authors": [
+    "Shalom Getz <shalom.getz@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jshashes": "~1.0.5",
+    "lodash": "~2.4.1"
+  }
+}
