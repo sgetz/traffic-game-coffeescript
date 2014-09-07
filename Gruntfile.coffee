@@ -1,7 +1,7 @@
 module.exports = (grunt) ->
 	require('load-grunt-tasks')(grunt)
 	require('coffee-script/register')
-	scriptTags = {scriptTags: require('build-conf').generateScriptTags()}
+	scriptTags = {scriptTags: require('./build').generateScriptTags()}
 	
 	######
 	pkg = grunt.file.readJSON 'package.json'

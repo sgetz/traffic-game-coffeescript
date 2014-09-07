@@ -5,4 +5,4 @@ class Truck extends Auto
 		if @size != 3
 			throw "Error: size of truck wasnt 3!"
 	repr: ->
-		"""new Truck(#{@color}, #{("[#{spot.id}]" for spot in @spots).join(', ')})"""
+		"""new Truck('#{@color}', #{("[#{spot.id}]" for spot in @spots).join(', ')})"""

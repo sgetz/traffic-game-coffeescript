@@ -3,7 +3,6 @@ Requires Axis, Spot, _
 ###
 class Auto
 	constructor: (@color, spots...) ->
-		console.log spots
 		@size = spots.length
 		@type = 'auto'
 		@spots = (Spot.makeNew spot for spot in spots)
@@ -27,4 +26,4 @@ class Auto
 	getId: ->
 		"""#{@getName()}@[#{("[#{spot.id}]" for spot in @spots).join(', ')}]"""
 	repr: ->
-		"""new Auto(#{@color}, #{("[#{spot.id}]" for spot in @spots).join(', ')})"""
+		"""new Auto('#{@color}', #{("[#{spot.id}]" for spot in @spots).join(', ')})"""

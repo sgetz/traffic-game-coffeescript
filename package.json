@@ -1,7 +1,6 @@
 {
   "name": "traffic-game-coffeescript",
   "version": "0.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,6 +17,15 @@
     "grunt-contrib-clean": "~0.6.0"
   },
   "dependencies": {
-    "grunt-contrib-clean": "~0.6.0"
-  }
+    "grunt-contrib-clean": "~0.6.0",
+    "coffee-script": "~1.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sgetz/traffic-game-coffeescript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sgetz/traffic-game-coffeescript/issues"
+  },
+  "homepage": "https://github.com/sgetz/traffic-game-coffeescript"
 }
